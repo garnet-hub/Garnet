@@ -1,0 +1,11 @@
+[package]
+name = "garnet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+chrono = "0.4.26"
+clap = { version = "4.3.23", features = ["derive"] }
+owo-colors = "3.5.0"
+which = "3.1"
